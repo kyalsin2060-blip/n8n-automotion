@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n8n_automotion | Advanced Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0a0a0c;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+        }
+        .neon-border {
+            border: 2px solid #00f2ff;
+            box-shadow: 0 0 15px #00f2ff, inset 0 0 5px #00f2ff;
+        }
+        .neon-text {
+            text-shadow: 0 0 10px #00f2ff, 0 0 20px #bc13fe;
+        }
+        .cyber-button {
+            background: linear-gradient(45deg, #00f2ff, #bc13fe);
+            clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+            transition: 0.3s;
+        }
+        .cyber-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #00f2ff;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <nav class="p-6 border-b border-gray-800 flex justify-between items-center">
+        <div class="text-2xl font-bold neon-text">n8n_automotion</div>
+        <div class="space-x-6 text-sm">
+            <a href="index.html" class="hover:text-cyan-400">Home</a>
+            <a href="privacy.html" class="hover:text-cyan-400">Privacy</a>
+            <a href="terms.html" class="hover:text-cyan-400">Terms</a>
+        </div>
+    </nav>
+
+    <main class="flex-grow flex flex-col items-center justify-center text-center px-4">
+        <div class="mb-8 neon-border rounded-full p-2">
+            <div class="w-32 h-32 rounded-full bg-gray-900 flex items-center justify-center overflow-hidden">
+                <span class="text-4xl">N8N</span>
+            </div>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-black mb-4 tracking-tighter">
+            NEXT-GEN <span class="text-cyan-400">AUTOMATION</span>
+        </h1>
+        <p class="max-w-xl text-gray-400 mb-8 text-lg">
+            Empowering TikTok creators with seamless n8n integration, automated workflows, and intelligent content management.
+        </p>
+        <button class="cyber-button px-10 py-3 text-black font-bold text-lg">
+            GET STARTED
+        </button>
+    </main>
+
+    <footer class="p-8 border-t border-gray-800 text-center text-gray-500 text-xs">
+        <p>© 2026 n8n_automotion. All rights reserved.</p>
+        <div class="mt-2 space-x-4">
+            <a href="privacy.html" class="underline">Privacy Policy</a>
+            <a href="terms.html" class="underline">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>
